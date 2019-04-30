@@ -1,0 +1,22 @@
+.dashboard_container {
+  margin-left: 300px;
+  background: #f5f5f5;
+  min-height: 100vh;
+  margin-top: 50px;
+  padding-top: 50px;
+  z-index: 1;
+}
+
+.dashboard__body-table {
+  background: #fff !important;
+}
+
+.dashboard__body-table thead {
+  background: #333;
+}
+
+@media (max-width: 768px) {
+  .dashboard_container {
+    margin-left: 0px;
+  }
+}

@@ -1,0 +1,14 @@
+.navbar {
+  background: #fffefe !important;
+}
+
+.navbar .header-links {
+  padding: 15px;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.navbar .header-links i {
+  margin-right: 10px;
+}
