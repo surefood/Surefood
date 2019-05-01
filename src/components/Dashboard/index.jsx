@@ -1,8 +1,9 @@
 import React from 'react';
-import Sidebar from './components/Sidebar';
-import Header from './components/Header';
-import DashboardBody from './components/DashboardBody';
+import Sidebar from '../Sidebar';
+import Header from '../Header';
+import DashboardBody from '../DashboardBody';
 import Nav from 'react-bootstrap/Nav';
+import { withAuthorization } from '../Session';
 
 function Dashboard() {
   return (
@@ -30,6 +31,9 @@ function Dashboard() {
           <Nav.Link className="header-links" href="#link">
             <i class="fas fa-money-bill-wave" /> Transactions
           </Nav.Link>
+          <Nav.Link className="header-links" href="">
+            <i class="fas fa-money-bill-wave" /> Logout
+          </Nav.Link>
         </Nav>
       </Header>
       <Sidebar />
@@ -38,4 +42,6 @@ function Dashboard() {
   );
 }
 
-export default Dashboard;
+const condition = authUser => !!authUser;
+
+export default withAuthorization(condition)(Dashboard);
