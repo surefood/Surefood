@@ -1,5 +1,55 @@
 body {
+  margin: 0;
+  padding: 0;
+  padding-top: 65px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  color: #444;
   font-family: 'Montserrat', sans-serif, 'Lucida Sans', 'Lucida Sans Regular',
     'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.h-100 {
+  min-height: 90vh !important;
+}
+
+.btn-auth {
+  width: 100%;
   color: #fff;
+  font-weight: 900;
+  font-size: 16px;
+  border-radius: 30px;
+  padding: 15px;
+  height: 50px;
+  background: linear-gradient(
+    90deg,
+    rgb(220, 168, 21) -50.47%,
+    rgb(254, 46, 165) 150%
+  );
+}
+
+.btn-banner {
+  background: rgb(206, 56, 123);
+  border-radius: 10px;
+  padding: 15px;
+  width: 50%;
+  color: #fff;
+}
+
+.btn-banner:hover {
+  background: rgb(146, 52, 95);
+  color: #fff;
+}
+
+@media (max-width: 576px) {
+  .btn-banner {
+    width: 80%;
+  }
 }

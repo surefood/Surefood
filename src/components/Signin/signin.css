@@ -1,0 +1,26 @@
+.signin {
+  min-height: 100vh !important;
+}
+
+.signin form {
+}
+.signin .right {
+  background: url('../../images/group.png');
+  background-position: 100%;
+}
+
+.signin input {
+  padding: 15px;
+  height: 50px;
+  border-radius: 30px;
+  font-size: 15px;
+  color: #111;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 576px) {
+  .signin input {
+    height: 40px;
+    font-size: 14px;
+  }
+}

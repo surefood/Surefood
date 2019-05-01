@@ -1,0 +1,22 @@
+.navigation .header-links {
+  width: 150px;
+  text-align: center;
+}
+.navigation .header-links a {
+  color: #7c7474;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+.navigation .header-links a:hover,
+.navigation .header-links a:active {
+  color: #333;
+  font-weight: 900;
+}
+
+@media (max-width: 768px) {
+  .navigation .header-links {
+    width: 100%;
+    text-align: left;
+  }
+}

@@ -1,0 +1,32 @@
+.home .home_top {
+  background: url('../../images/group.png');
+  height: 60vh;
+  color: #fff;
+}
+
+.home_top .banner_header {
+  font-size: 48px;
+}
+.home_top .container {
+  height: 100%;
+}
+.home_top p {
+  font-size: 20px;
+}
+
+.home_top .left {
+  min-height: 60vh !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home .how_to p {
+  font-size: 15px;
+}
+.home .how_does {
+  background: #f5f1f1;
+}
+
+@media (max-width: 768px) {
+}

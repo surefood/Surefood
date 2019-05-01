@@ -15,7 +15,7 @@ function DashboardBody() {
             <Card
               style={{
                 'background-image':
-                  '-webkit-linear-gradient(90deg, #3f5efb 0%, #fc466b 100%)',
+                  '-webkit-linear-gradient(90deg, rgb(220, 168, 21) -50.47%, rgb(254, 46, 165) 150%)',
                 padding: 30,
                 marginBottom: 30
               }}
@@ -62,7 +62,7 @@ function DashboardBody() {
       {/* Table starts */}
       <Container>
         <h3 class="mt-5 text-dark"> Products</h3>
-        <Table hover responsive striped style={{ marginTop: 10 }}>
+        <Table hover responsive bordered style={{ marginTop: 10 }}>
           <thead
             style={{ background: '#333', color: '#fff', borderRadius: '10px' }}
           >

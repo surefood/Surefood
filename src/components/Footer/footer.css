@@ -1,0 +1,10 @@
+.footer .copyright {
+  font-size: 13px;
+  padding: 15px;
+  background: linear-gradient(
+    90deg,
+    rgb(220, 168, 21) -50.47%,
+    rgb(254, 46, 165) 150%
+  );
+  color: #fff;
+}

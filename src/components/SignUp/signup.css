@@ -1,0 +1,24 @@
+.signup {
+  min-height: 100vh;
+}
+.signup .right {
+  background: url('../../images/group.png');
+  background-position: 100%;
+}
+
+.signup input,
+.signup .btn-signup {
+  padding: 15px;
+  height: 50px;
+  border-radius: 30px;
+  font-size: 15px;
+  color: #111;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 576px) {
+  .signup input {
+    height: 40px;
+    font-size: 14px;
+  }
+}
