@@ -32,7 +32,7 @@ const NavigationAuthBase = ({ firebase, history }) => (
       <Link to={ROUTES.DASHBOARD}>Dashboard</Link>
     </Nav.Link>
     <Nav.Link className="header-links">
-      <Link to={ROUTES.HOME} onClick={firebase.signOut}>
+      <Link to={ROUTES.SIGN_IN} onClick={firebase.signOut}>
         Logout
       </Link>
     </Nav.Link>

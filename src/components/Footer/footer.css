@@ -8,3 +8,42 @@
   );
   color: #fff;
 }
+
+.footer h4 {
+  color: #a92e65;
+}
+
+.footer a {
+  color: #333;
+  display: block;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #a92e65;
+}
+
+.social-media-icon a {
+  background: #a92e65;
+  color: white;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 100%;
+  font-size: 80%;
+  transition: all 0.3s ease;
+}
+
+.social-media-icon a:hover {
+  font-weight: 600;
+  font-size: 100%;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .social-media-icon {
+    display: block !important;
+  }
+}

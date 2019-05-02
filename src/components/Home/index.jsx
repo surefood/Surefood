@@ -1,7 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { Container, Col, Row } from 'react-bootstrap';
 import './home.css';
+import surefood_desktop from '../../images/surefood_desktop.png';
+import surefoode_mobile from '../../images/surefood_mobile.png';
 
 import Navigation from '../Navigation';
 import Footer from '../Footer';
@@ -23,7 +24,9 @@ const Home = () => (
               SIGN UP FOR FREE
             </a>
           </Col>
-          <Col xs={12} md={6} />
+          <Col xs={12} md={6} className="d-none d-lg-block">
+            <img src={surefood_desktop} alt="" className="img-fluid" />
+          </Col>
         </Row>
       </Container>
     </div>
@@ -116,13 +119,35 @@ const Home = () => (
           voluptates incidunt aut sapiente et accusantium enim nobis quae id
           consequuntur veniam natus temporibus tempora orem ipsum dolor sit amet
           consectetur adipisicing elit. Vel, voluptatibus quibusdam veritatis,
-          aliquid soluta ipsum dicta doloremque harum autem laudantium ex optio
-          aut nihil nesciunt. Doloremque, pariatur voluptates incidunt aut
-          sapiente et accusantium enim nobis quae id consequuntur veniam natus
-          temporibus tempora veritatis repellendus praesentium nisi fugiat nihil
-          similique quia. veritatis repellendus praesentium nisi fugiat nihil
           similique quia.
         </p>
+      </Container>
+    </div>
+
+    <div className="mobile_download py-3">
+      <Container>
+        <Row>
+          <Col className="right mb-3" xs={12} md={6}>
+            <div>
+              <h3 className="mb-3">Download Mobile App</h3>
+              <p>Subscribe to Restaurants. Book Meal cashlessly</p>
+            </div>
+            <a
+              className="btn btn-mobile-download text-white w-50 my-3 d-flex"
+              href="playstore.com"
+            >
+              <i class="fab fa-google-play fa-2x mr-3" />
+              <span>Download on Google Play Store</span>
+            </a>
+          </Col>
+          <Col xs={12} md={6} class="mb-3 d-flex justify-content-center">
+            <img
+              src={surefoode_mobile}
+              className="img-fluid"
+              alt="surefood_mobile"
+            />
+          </Col>
+        </Row>
       </Container>
     </div>
 

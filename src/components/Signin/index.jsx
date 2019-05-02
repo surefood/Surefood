@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import Navigation from '../Navigation';
 import { Container, Row, Col } from 'react-bootstrap';
+import { withRouter } from 'react-router-dom';
 import './signin.css';
+import { withFirebase } from '../Firebase';
+import * as ROUTES from '../../constants/route';
 
 const INITIAL_STATE = {
   email: '',
@@ -12,9 +15,23 @@ const INITIAL_STATE = {
 class SignIn extends Component {
   state = { ...INITIAL_STATE };
 
-  onSubmit = () => {};
+  onSubmit = e => {
+    e.preventDefault();
+    const { email, password } = this.state;
+    this.props.firebase
+      .signInUserWithEmailAndPassword(email, password)
+      .then(authUser => {
+        this.setState({ ...INITIAL_STATE });
+        this.props.history.push(ROUTES.DASHBOARD);
+      })
+      .catch(error => {
+        this.setState({ error });
+      });
+  };
 
-  onChange = () => {};
+  onChange = e => {
+    this.setState({ [e.target.name]: e.target.value });
+  };
   render() {
     const { email, password, error } = this.state;
     const isInvalid = email === '' || password === '';
@@ -70,4 +87,4 @@ class SignIn extends Component {
   }
 }
 
-export default SignIn;
+export default withRouter(withFirebase(SignIn));

@@ -22,13 +22,38 @@ class SignUpFormBase extends Component {
   state = { ...INITIAL_STATE };
   onSubmit = e => {
     e.preventDefault();
-    const { name, email, password } = this.state;
+    const {
+      name,
+      email,
+      location,
+      city,
+      state,
+      country,
+      password
+    } = this.state;
+    const data = {
+      name,
+      location,
+      city,
+      state,
+      country
+    };
     this.props.firebase
       .createUserWithEmailAndPassword(email, password)
       .then(authUser => {
-        console.log(authUser);
-        this.setState({ ...INITIAL_STATE });
-        this.props.history.push(ROUTES.HOME);
+        const newRestaurant = this.props.firebase.restaurants().push(data);
+        const restaurantKey = newRestaurant.key;
+        console.log(restaurantKey);
+        this.props.firebase.user(authUser.user.uid).set({
+          name,
+          email,
+          restaurantId: restaurantKey
+        });
+
+        this.setState({
+          ...INITIAL_STATE
+        });
+        this.props.history.push(ROUTES.DASHBOARD);
       })
       .catch(error => this.setState({ error }));
   };

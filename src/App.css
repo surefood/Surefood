@@ -43,6 +43,12 @@ code {
   color: #fff;
 }
 
+.btn-mobile-download {
+  background: #000;
+  color: #fafafa;
+  text-align: left;
+}
+
 .btn-banner:hover {
   background: rgb(146, 52, 95);
   color: #fff;

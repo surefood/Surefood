@@ -1,6 +1,5 @@
 .home .home_top {
   background: url('../../images/group.png');
-  height: 60vh;
   color: #fff;
 }
 
@@ -25,7 +24,20 @@
   font-size: 15px;
 }
 .home .how_does {
-  background: #f5f1f1;
+  background: #fcfbfb;
+}
+.home .mobile_download {
+  background: linear-gradient(
+    90deg,
+    rgb(220, 168, 21) -50.47%,
+    rgb(254, 46, 165) 150%
+  );
+  color: #f9f9f9;
+}
+.home .mobile_download .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 @media (max-width: 768px) {
