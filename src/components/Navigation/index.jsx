@@ -41,7 +41,7 @@ const NavigationAuthBase = ({ firebase, history }) => (
 
 const NavigationAuth = withRouter(withFirebase(NavigationAuthBase));
 
-const Navigation = ({ authUser }) => (
+const Navigation = () => (
   <AuthContextUser.Consumer>
     {authUser => (
       <div class="navigation">

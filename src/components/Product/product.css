@@ -1,0 +1,34 @@
+.product-page {
+  color: #333;
+}
+
+.btn-modal {
+  background: rgb(221, 45, 124);
+  padding: 15px;
+  color: #fff;
+}
+
+.btn-modal:hover {
+  background: rgb(158, 65, 107);
+  color: #fff;
+}
+
+.modal .form-group input {
+  padding: 15px;
+  height: 50px;
+  border-radius: 30px !important;
+  font-size: 15px;
+  color: #111;
+  margin-bottom: 20px;
+}
+
+.modal textarea {
+  border-radius: 30px !important;
+  padding: 15px;
+  margin-bottom: 20px;
+  resize: none;
+}
+
+.modal .btn-modal:disabled {
+  opacity: 0.3;
+}

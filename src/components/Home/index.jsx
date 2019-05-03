@@ -20,7 +20,7 @@ const Home = () => (
             <p className="font-weight-light mt-2 mb-3">
               Get the best meal plans in the best hotels cashlessly
             </p>
-            <a href="" className="btn btn-banner">
+            <a href="/signup" className="btn btn-banner">
               SIGN UP FOR FREE
             </a>
           </Col>

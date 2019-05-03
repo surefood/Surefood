@@ -5,10 +5,32 @@ import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Table from 'react-bootstrap/Table';
+import {
+  BrowserRouter as Router,
+  Route,
+  Link,
+  Switch,
+  withRouter
+} from 'react-router-dom';
 
-function DashboardBody() {
+import Product from '../Product';
+
+function DashboardBody({ match }) {
   return (
     <div class="dashboard_container px-3">
+      <Router>
+        <Switch>
+          <Route exact path={match.url} component={Dashboard} />
+          <Route path={`${match.url}/products`} component={Product} />
+        </Switch>
+      </Router>
+    </div>
+  );
+}
+
+function Dashboard() {
+  return (
+    <div>
       <Container>
         <Row>
           <Col xs={12} md={4}>
@@ -156,5 +178,4 @@ function DashboardBody() {
     </div>
   );
 }
-
-export default DashboardBody;
+export default withRouter(DashboardBody);
