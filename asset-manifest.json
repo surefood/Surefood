@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/surefood.github.io/Surefood/static/css/main.9bf20210.chunk.css",
-    "main.js": "/surefood.github.io/Surefood/static/js/main.e6d6c62c.chunk.js",
-    "main.js.map": "/surefood.github.io/Surefood/static/js/main.e6d6c62c.chunk.js.map",
-    "runtime~main.js": "/surefood.github.io/Surefood/static/js/runtime~main.7f29633d.js",
-    "runtime~main.js.map": "/surefood.github.io/Surefood/static/js/runtime~main.7f29633d.js.map",
-    "static/js/2.06fdad29.chunk.js": "/surefood.github.io/Surefood/static/js/2.06fdad29.chunk.js",
-    "static/js/2.06fdad29.chunk.js.map": "/surefood.github.io/Surefood/static/js/2.06fdad29.chunk.js.map",
-    "index.html": "/surefood.github.io/Surefood/index.html",
-    "precache-manifest.5adbe3df56f0395f47ceeeeb442820a6.js": "/surefood.github.io/Surefood/precache-manifest.5adbe3df56f0395f47ceeeeb442820a6.js",
-    "service-worker.js": "/surefood.github.io/Surefood/service-worker.js",
-    "static/css/main.9bf20210.chunk.css.map": "/surefood.github.io/Surefood/static/css/main.9bf20210.chunk.css.map",
-    "static/media/signin.css": "/surefood.github.io/Surefood/static/media/group.1a410cc3.png",
-    "static/media/logo.svg": "/surefood.github.io/Surefood/static/media/logo.f211cfe9.svg",
-    "static/media/surefood_desktop.png": "/surefood.github.io/Surefood/static/media/surefood_desktop.34907e1f.png",
-    "static/media/surefood_mobile.png": "/surefood.github.io/Surefood/static/media/surefood_mobile.fd92d135.png"
+    "main.css": "/Surefood/static/css/main.63bf5c68.chunk.css",
+    "main.js": "/Surefood/static/js/main.68838653.chunk.js",
+    "main.js.map": "/Surefood/static/js/main.68838653.chunk.js.map",
+    "runtime~main.js": "/Surefood/static/js/runtime~main.5959face.js",
+    "runtime~main.js.map": "/Surefood/static/js/runtime~main.5959face.js.map",
+    "static/js/2.1802e650.chunk.js": "/Surefood/static/js/2.1802e650.chunk.js",
+    "static/js/2.1802e650.chunk.js.map": "/Surefood/static/js/2.1802e650.chunk.js.map",
+    "index.html": "/Surefood/index.html",
+    "precache-manifest.eee7e078439c7c7ef4e625bc86bad3eb.js": "/Surefood/precache-manifest.eee7e078439c7c7ef4e625bc86bad3eb.js",
+    "service-worker.js": "/Surefood/service-worker.js",
+    "static/css/main.63bf5c68.chunk.css.map": "/Surefood/static/css/main.63bf5c68.chunk.css.map",
+    "static/media/signin.css": "/Surefood/static/media/group.1a410cc3.png",
+    "static/media/logo.svg": "/Surefood/static/media/logo.f211cfe9.svg",
+    "static/media/surefood_desktop.png": "/Surefood/static/media/surefood_desktop.34907e1f.png",
+    "static/media/surefood_mobile.png": "/Surefood/static/media/surefood_mobile.fd92d135.png"
   }
 }
