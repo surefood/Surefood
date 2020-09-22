@@ -1,72 +1,30 @@
-<<<<<<< HEAD
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## SureFood Description
 
-## Available Scripts
+SureFood is a platform that allows people to subscribe to any restaurant of their choice so as to help them have free access to healthy food without cash. It allows the user to explore different restaurant of their choice depending on their location, survey their feeding plan and meal prices, and subscribe to the restaurant for a given period of time. This gives the user that opportunity to eat in a restaurant without worrying about paying after meal. This also allows the user to save more money by paying upfront and making budget for their meal for a given period of time. It also allows the user to have free access to any of the restaurant outlet within the country.
 
-In the project directory, you can run:
+## Technologies used
+Android, Firebase, Progressive web App (PWA), Reactjs
 
-### `npm start`
+## Link to Android
+[Android app via google drive](https://drive.google.com/folderview?id=11fxt-YGLSxTcQ54_yK-8BhRiVlgCjU6g)
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Link to website
+View [website](https://surefood.herokuapp.com)
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+### login details
 
-### `npm test`
+email: mail@biggs.com
+pk: somtozech
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## How we utilised our technology?
 
-### `npm run build`
+Before we started building the product, we considered alot of things which included: demographic, ease of use, and economic class of our target users. We eventually decided to leverage on Android (User side) because of the increasing number of mobile penetration in our country, and we also leveraged on progressive web apps (Restaurant side) because of the great usage of desktop computers in most of the restaurants within the country. 
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## What motivated us to build this project?
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+We want to make it possible for people to eat happily without worrying to pay physical cash after meal. We want people to focus more on eating healthy food rather than worrying over the huge stress of making payments after meal. We believe that people should feed well with minimal stress and that is why we're building a solution to solve this problem using technology.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Impact on the users?
 
-### `npm run eject`
+Food is one of the most basic human needs- everyone, including the rich and poor, must eat to survive. As more Africans (especially those living in cities) cannot find the time, convenience or skill to cook for themselves, eating at fast food and casual dining restaurants is on a rapid rise. We have seen that the traditional way of delivering customer service in this business isn't the most effective method. Now, integrating technology into the system would definitely be a Game changer. This new advancement will give rise to a redefined industry where there's 100% customer satisfaction and huge value creation in the industry. 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-=======
-# Surefood
->>>>>>> bb40a0d1e8bcf1e4a87097488437394955e187c0
